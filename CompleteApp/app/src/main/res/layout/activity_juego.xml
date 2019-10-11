@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".JuegoActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="9pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Qué princesa de Disney eres?"
+        android:textAlignment="center"
+        android:textColor="#239BAA"
+        android:textSize="11pt"
+        app:fontFamily="sans-serif-black" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elige lo que mejor de identifica"
+        android:textAlignment="center"
+        android:textColor="#239BAA"
+        android:textSize="8pt"
+        app:fontFamily="sans-serif-black"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6pt" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdg1">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbVerano"
+            android:textColor="#239BAA"
+            android:textSize="7pt"
+            android:text="Me encanta el verano y sentir el sol y el calor."/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbInvierno"
+            android:textColor="#239BAA"
+            android:textSize="7pt"
+            android:text="Prefiero el frío, suéteres y bebidas calientes."/>
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6pt" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdg2">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbPrincipe"
+            android:textColor="#239BAA"
+            android:textSize="7pt"
+            android:text="Sueño con casarme con un príncipe para vivir feliz."/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbTrabajo"
+            android:textColor="#239BAA"
+            android:textSize="7pt"
+            android:text="Sueño con trabajar y ser una mujer independiente"/>
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6pt" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdg3">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbAnimal"
+            android:textColor="#239BAA"
+            android:textSize="7pt"
+            android:text="Disfruto bosques y pasar tiempo con animales."/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbLeer"
+            android:textColor="#239BAA"
+            android:textSize="7pt"
+            android:text="Ocupo mi tiempo en leer y aprender del entorno."/>
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6pt" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="14pt"
+        android:text="Veamos!"
+        android:textSize="6pt"
+        android:id="@+id/btnverPrincesa"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="68pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        Tu princesa es..."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F8FFFEFE"
+        android:textSize="11pt"
+        app:fontFamily="sans-serif-black" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6pt" />
+
+    <TextView
+        android:id="@+id/txvprincesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F8FFFEFE"
+        android:textSize="11pt"
+        app:fontFamily="sans-serif-black" />
+
+
+</LinearLayout>
